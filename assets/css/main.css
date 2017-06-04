@@ -1597,6 +1597,9 @@
 		font-size:11pt;
 		line-height: 0.15em;
 	}
+	email{
+		text-transform: lowercase;
+	}
 	p2 a{
 		color: #3fb1a3;
 		text-decoration: none;
