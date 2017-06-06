@@ -1579,7 +1579,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #389f92;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -1601,7 +1601,7 @@
 		text-transform: lowercase;
 	}
 	p2 a{
-		color: #3fb1a3;
+		color: #389f92;
 		text-decoration: none;
 		border: 0;
 	}
@@ -1637,7 +1637,7 @@
 			border: 0;
 		}
 		h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: #3fb1a3;
+			color: #389f92;
 			text-decoration: none;
 			border: 0;
 		}
@@ -1665,8 +1665,8 @@
 	}
 
 	hr {
-		border-top: solid 1px rgba(124, 128, 129, 0.2);
-		border: 0;
+		height: 1px;
+		border-top: 1px solid #7c8081;
 		margin-bottom: 1.5em;
 	}
 
