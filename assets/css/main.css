@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #404040;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -1579,7 +1579,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #389f92;
+		color: #ef624e;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -1601,7 +1601,7 @@
 		text-transform: lowercase;
 	}
 	p2 a{
-		color: #389f92;
+		color: #ef624e;
 		text-decoration: none;
 		border: 0;
 	}
@@ -1624,7 +1624,7 @@
 		text-transform: uppercase;
 	}
 	h4 {
-		color: black;
+		color: #222222;
 		font-size: 20pt;
 		font-weight: 300;
 		line-height: 2.25em;
@@ -1637,7 +1637,7 @@
 			border: 0;
 		}
 		h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: #389f92;
+			color: #ef624e;
 			text-decoration: none;
 			border: 0;
 		}
@@ -1772,7 +1772,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #f17765;
 		}
 
 	input[type="text"],
@@ -2101,8 +2101,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #f17765;
+			border-color: #f17765;
 			color: #fff !important;
 		}
 
@@ -2110,8 +2110,8 @@
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #e98875 !important;
+				border-color: #e98875 !important;
 			}
 
 		input[type="button"].fit,
@@ -2142,7 +2142,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #f17765;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2157,7 +2157,7 @@
 			.wrapper.style2 .button.special {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #f17765 !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -2378,7 +2378,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #f17765;
 				color: #fff;
 			}
 
