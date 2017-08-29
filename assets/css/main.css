@@ -1609,7 +1609,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h5, h6 {
+	h1, h2, h5 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -1630,6 +1630,22 @@
 		line-height: 2.25em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+	}
+	quote {
+		float:left;
+		color: #A5A7AA;
+		font-weight: 300;
+		line-height: 1.75em;
+		margin-bottom: 1em;
+		margin-right:15%;
+		margin-left:15%;
+		font-style: italic;
+	}
+	author {
+		color: #A5A7AA;
+		font-weight: 300;
+		line-height: 1.75em;
+		margin-bottom: 1em;
 	}
 		h1 a{
 			color:inherit;
