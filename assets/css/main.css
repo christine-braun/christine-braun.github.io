@@ -1656,7 +1656,16 @@
 		a:hover {
 			text-decoration: none;
 		}
-
+		
+	a2 {
+		text-decoration: underline dotted;
+		color: inherit;
+	}
+		a2:hover {
+			text-decoration: underline;
+			cursor: pointer;
+		}
+		
 	strong, b {
 		color: #484848;
 		font-weight: 700;
