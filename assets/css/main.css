@@ -1657,6 +1657,21 @@
 			text-decoration: none;
 		}
 		
+		a.type1{
+			text-decoration: underline;
+			color: #2094C2;
+		}
+		
+	a1 {
+			text-decoration: underline;
+			color: #2094C2;
+		}
+
+		a1:hover {
+				text-decoration: none;
+				cursor: pointer;
+		}
+			
 	a2 {
 		text-decoration: underline dotted;
 		color: inherit;
