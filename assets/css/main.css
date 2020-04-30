@@ -2839,6 +2839,7 @@
 			right: 1.25em;
 			top: 0;
 			vertical-align: middle;
+			
 		}
 
 			#header nav ul {
@@ -2859,13 +2860,14 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #666;
+						color: #000;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav ul li a:hover {
-							color: #484848;
+/*							color: #484848;*/
+							color: #000;
 						}
 
 					#header nav ul li:first-child {
@@ -2921,7 +2923,8 @@
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+/*					color: #ddd;*/
+					color: #000000;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
@@ -3108,11 +3111,11 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 14em 0 11em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner3.jpg");
+		background-image: url("../../images/banner3.jpg");
 		background-position: center top;
-		background-size: cover;
+		background-size: contain;
 		line-height: 1.75;
 		text-align: center;
 	}
@@ -3122,11 +3125,14 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #ffffff ;
 			display: inline-block;
 			font-size: 3.5em;
 			line-height: 1.35;
 			margin-bottom: 0.5em;
+			background: rgba(52,73,94,0.9);
+			padding: 0 1em 0 1em;
+			border-radius: 30px;
 		}
 
 		#banner p {
@@ -3139,7 +3145,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 14em 0 11em 0;
+				padding: 12em 0 9em 0;
 			}
 
 				#banner h2 {
@@ -3151,7 +3157,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 7em 0 5em 0;
 			}
 
 		}
@@ -3159,7 +3165,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 4em 2em 4em 2em;
 			}
 
 				#banner br {
