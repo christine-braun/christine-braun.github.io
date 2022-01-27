@@ -1,4 +1,4 @@
-%   File: SE_main.m
+%   File: SE1_main.m
 %   Purpose: estimate duration data through maximum likelihood following
 %            structural estimation lectures
 %
