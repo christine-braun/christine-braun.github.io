@@ -1,7 +1,7 @@
 function [loglikeval] = loglike5(p,data)
 % Log likelihood function for data 1 
 %   inputs: p - paramerters of weibull alpha & beta 
-%           t - data on unemployment duration 
+%           data - matrix of data
 %   outputs: loglikeval - the negative value of the likelihood function
 
 % assign parameters
