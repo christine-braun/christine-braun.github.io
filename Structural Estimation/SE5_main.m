@@ -79,7 +79,7 @@ while diff> epsilon
    pi_hat = 
    
    % maximization
-   [ests5_EM,loglikeval5_EM,~,~,~,~,H5_EM] = fmincon(@(p) loglike5_EM_answer( ),init_guess,[],[],Aeq,beq,lb);  
+   [ests5_EM,loglikeval5_EM,~,~,~,~,H5_EM] = fmincon(@(p) loglike5_E( ),init_guess,[],[],Aeq,beq,lb);  
    
    % difference
    diff = 
