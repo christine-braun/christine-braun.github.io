@@ -24,6 +24,6 @@ ln_unemp = log(lambda) + log(1-G(wR)) - lambda.*(1-G(wR)).*t + log(delta) - log(
 ln_emp = log(lambda) + log(1-G(wR)) + log(max(g(w),eps)) - log(1-G(wR)) - log(delta + lambda.*(1-G(wR)));
 
 % final log likelihood value
-loglikeval = -sum(u.*ln_unemp + (1-u).*ln_emp);
+loglikeval = -(1./10000).*sum(u.*ln_unemp + (1-u).*ln_emp);
 
 end

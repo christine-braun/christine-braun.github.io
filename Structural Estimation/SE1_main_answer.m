@@ -37,7 +37,7 @@ wR_hat = min(data2(data2(:,3)>0,3));
 lb = [0,-inf,0,0];
 
 % set an initial guess
-init_guess = [0.3,1,1,0.2];
+init_guess = [0.3,1,0.2,8];
 
 % estimate 
 [ests2,loglikeval2,~,~,~,~,H2] = fmincon(@(p) loglike2_answer(p,data2,wR_hat),init_guess,[],[],[],[],lb);
