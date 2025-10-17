@@ -69,7 +69,10 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-
+ul.bullets {
+    list-style-type:circle;
+    padding: 10px 20px;
+}
 
 /* @end */
 
