@@ -30,11 +30,7 @@ ExpWage = exp(mu+(sigma.^2)./2).*(normcdf((mu+sigma.^2-log(wr))./sigma)./(1-norm
 ExpWage2 = exp(2.*mu+2.*(sigma.^2)).*(normcdf((mu+2.*sigma.^2-log(wr))./sigma)./(1-normcdf((log(wr)-mu)./sigma)));
 
 % create g vector
-g = [u - urate,tu-uduration,te-eduration,w-ExpWage,(w.^2) - ExpWage2];
-g(tu==0,2) = 0;
-g(w==0,3) = 0;
-g(w==0,4) = 0;
-g(w==0,5) = 0;
+g = [u - urate,u.*(tu-uduration),(1-u).*(te-eduration),(1-u).*(w-ExpWage),(1-u).*((w.^2) - ExpWage2)];
 g = g';
 
 end
