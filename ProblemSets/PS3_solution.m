@@ -27,7 +27,7 @@ V_old = zeros(N, 1);
 V_new = zeros(N, 1);
 
 % TODO: Better initial guess?
-V_old = (k_grid.^alpha).^(1-sigma)./((1-sigma).*(1-beta));
+V_old = (k_grid.^alpha - delta*k_grid).^(1-sigma)./((1-sigma).*(1-beta));
 %% Value function iteration
 tol = 1e-6;
 max_iter = 1000;
@@ -46,7 +46,7 @@ while diff > tol && iter < max_iter
         
         % TODO: Find optimal consumption/capital choice
         % - Calculate consumption at each point in the k grid
-        c = max((1-delta)*k_grid(i) + f(k_grid(i)) - k_grid,0);
+        c = max((1-delta)*k_grid(i) + f(k_grid(i)) - k_grid,eps);
         % - Find maximum
         [V_new(i),max_idx] = max(u(c) + beta.*V_old);
         % - Store optimal policy functions
